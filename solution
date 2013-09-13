@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+	int t;long long int n,c=0,k;
+	scanf("%d",&t);
+	while(t--)
+	{
+	scanf("%lld",&k);c=0;
+	for(n=192;;n=n+250)
+{
+    c++;
+    if(c==k)
+    {
+    printf("%lld\n",n);
+    break;}
+    
+}
+}
+return 0;
+}
